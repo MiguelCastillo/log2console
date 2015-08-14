@@ -1,6 +1,6 @@
 {
   "name": "log2console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "dis-isa": "^1.2.0"
   },
