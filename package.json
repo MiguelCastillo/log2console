@@ -30,7 +30,7 @@
   "directories": {
     "test": "test"
   },
-  "description": "Utility methods to log to console",
+  "description": "Helper method to log to console",
   "repository": {
     "type": "git",
     "url": "https://github.com/MiguelCastillo/log2console.git"
