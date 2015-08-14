@@ -49,6 +49,4 @@ function log(data) {
 }
 
 
-module.exports = {
-  log: log
-};
+module.exports = log;

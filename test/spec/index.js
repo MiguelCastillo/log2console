@@ -1,4 +1,4 @@
-var index = require("dist/index");
+var log2console = require("dist/index");
 
 describe("log2console Test suite", function() {
   describe("Calling log on a simple object", function () {
@@ -6,7 +6,7 @@ describe("log2console Test suite", function() {
 
     beforeEach(function() {
       data = {hello: "world"};
-      index.log(data);
+      log2console(data);
     });
 
     it("then data.handled is not set", function() {
@@ -19,7 +19,7 @@ describe("log2console Test suite", function() {
 
     beforeEach(function() {
       data = new Error();
-      index.log(data);
+      log2console(data);
     });
 
     it("then data.handled is set", function() {
